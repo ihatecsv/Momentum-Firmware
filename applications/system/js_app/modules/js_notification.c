@@ -30,6 +30,7 @@ static const struct {
     {"yellow", &sequence_blink_yellow_10, &sequence_blink_yellow_100},
     {"cyan", &sequence_blink_cyan_10, &sequence_blink_cyan_100},
     {"magenta", &sequence_blink_magenta_10, &sequence_blink_magenta_100},
+    {"rainbow", &sequence_blink_rainbow_10, &sequence_blink_rainbow_100},
 };
 
 static void js_notify_blink(struct mjs* mjs) {

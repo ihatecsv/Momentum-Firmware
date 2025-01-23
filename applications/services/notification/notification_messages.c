@@ -478,6 +478,13 @@ const NotificationSequence sequence_blink_start_magenta = {
     NULL,
 };
 
+const NotificationSequence sequence_blink_start_rainbow = {
+    &message_blink_start_10,
+    &message_blink_set_color_rainbow,
+    &message_do_not_reset,
+    NULL,
+};
+
 const NotificationSequence sequence_blink_stop = {
     &message_blink_stop,
     NULL,
@@ -595,5 +602,73 @@ const NotificationSequence sequence_lcd_contrast_update = {
 };
 
 const NotificationSequence sequence_empty = {
+    NULL,
+};
+
+const NotificationSequence sequence_blink_rainbow_10 = {
+    // Red
+    &message_red_255,
+    &message_green_0,
+    &message_blue_0,
+    &message_delay_10,
+    // Yellow (Red + Green)
+    &message_red_255,
+    &message_green_255,
+    &message_blue_0,
+    &message_delay_10,
+    // Green
+    &message_red_0,
+    &message_green_255,
+    &message_blue_0,
+    &message_delay_10,
+    // Cyan (Green + Blue)
+    &message_red_0,
+    &message_green_255,
+    &message_blue_255,
+    &message_delay_10,
+    // Blue
+    &message_red_0,
+    &message_green_0,
+    &message_blue_255,
+    &message_delay_10,
+    // Purple (Red + Blue)
+    &message_red_255,
+    &message_green_0,
+    &message_blue_255,
+    &message_delay_10,
+    NULL,
+};
+
+const NotificationSequence sequence_blink_rainbow_100 = {
+    // Red
+    &message_red_255,
+    &message_green_0,
+    &message_blue_0,
+    &message_delay_100,
+    // Yellow (Red + Green)
+    &message_red_255,
+    &message_green_255,
+    &message_blue_0,
+    &message_delay_100,
+    // Green
+    &message_red_0,
+    &message_green_255,
+    &message_blue_0,
+    &message_delay_100,
+    // Cyan (Green + Blue)
+    &message_red_0,
+    &message_green_255,
+    &message_blue_255,
+    &message_delay_100,
+    // Blue
+    &message_red_0,
+    &message_green_0,
+    &message_blue_255,
+    &message_delay_100,
+    // Purple (Red + Blue)
+    &message_red_255,
+    &message_green_0,
+    &message_blue_255,
+    &message_delay_100,
     NULL,
 };

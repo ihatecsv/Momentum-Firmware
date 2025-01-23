@@ -116,6 +116,7 @@ extern const NotificationSequence sequence_blink_green_10;
 extern const NotificationSequence sequence_blink_yellow_10;
 extern const NotificationSequence sequence_blink_cyan_10;
 extern const NotificationSequence sequence_blink_magenta_10;
+extern const NotificationSequence sequence_blink_rainbow_10;
 
 extern const NotificationSequence sequence_blink_red_100;
 extern const NotificationSequence sequence_blink_green_100;
@@ -124,6 +125,7 @@ extern const NotificationSequence sequence_blink_yellow_100;
 extern const NotificationSequence sequence_blink_cyan_100;
 extern const NotificationSequence sequence_blink_magenta_100;
 extern const NotificationSequence sequence_blink_white_100;
+extern const NotificationSequence sequence_blink_rainbow_100;
 
 // Hardware blink
 extern const NotificationSequence sequence_blink_start_blue;
@@ -132,6 +134,7 @@ extern const NotificationSequence sequence_blink_start_green;
 extern const NotificationSequence sequence_blink_start_yellow;
 extern const NotificationSequence sequence_blink_start_cyan;
 extern const NotificationSequence sequence_blink_start_magenta;
+extern const NotificationSequence sequence_blink_start_rainbow;
 extern const NotificationSequence sequence_blink_stop;
 
 // General
